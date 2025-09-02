@@ -1,0 +1,15 @@
+<Project>
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <AdditionalIncludeDirectories>
+        $(MSBuildThisFileDirectory);
+        $(MSBuildThisFileDirectory)pfc;
+		$(MSBuildThisFileDirectory)foobar2000;
+		$(MSBuildThisFileDirectory)foobar2000\libbs2b\src;
+		$(MSBuildThisFileDirectory)foobar2000\helpers;
+        $(MSBuildThisFileDirectory)foobar2000\SDK;
+        %(AdditionalIncludeDirectories)
+      </AdditionalIncludeDirectories>
+    </ClCompile>
+  </ItemDefinitionGroup>
+</Project>
